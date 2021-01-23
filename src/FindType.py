@@ -7,6 +7,9 @@ print(type(b))
 print(type(c))
 print(type(d))
 
+s = "Manoj"
+print('s is', type(s))
+
 a = 10.5
 print(type(a))
 
@@ -24,3 +27,13 @@ print('g =', g)
 h = a + 10
 print('h is', type(h))
 print('h =', h)
+print(id(h))
+
+x = 10 + 20j
+print(type(x))
+print(x.real)
+print(x.imag)
+
+print(True + True)
+print(True - True)
+print(True * True)
