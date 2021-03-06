@@ -1,4 +1,8 @@
 s = 'Manoj Kumar Saini Monika'
+print(len(s))
+print(s.count('Monika'))
+print(s.count(' '))
+print(len(s.split()))
 l = s.split()
 l1 = []
 i = 0
