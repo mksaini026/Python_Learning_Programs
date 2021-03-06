@@ -7,10 +7,10 @@ def factorial(num):
 
 
 def factorial1(num):
-    result = 1
-    if num >= 1:
-        result = num * factorial1(num - 1)
-    return result
+    if num == 0:
+        return 1
+    else:
+        return num * factorial1(num - 1)
 
 
 num = int(input("Enter the num "))
